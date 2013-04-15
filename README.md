@@ -35,6 +35,13 @@ Instructions
 Note
 -------------------------------
 
+**DEBUG** is set to *True* by default. It will only import the first 10 friends so that Twitter doesn't block your account while you're debbuging.  Set to *False* when ready to run the full script.
+
+**DEBUG_DELETE_DB** to *True* by default. It will delete the database after a sucessful run. Set it to *False* if you do not wish this behavior.
+
+If for some reason the script fails to run successfully, it is recommended to detele the database ( *twitter.db* ).
+
+-------------------------------
 
 **Twitter will potentially block your secondary account** if you follow a lot of users in a short ammount of time. This might be fine for many users as you probably want to run this script once.
 
